@@ -8,6 +8,11 @@ const QuizForm = () => {
     <section className="quiz quiz-small">
       <form className="setup-form">
         <h2> setup quiz</h2>
+        <p>
+          Only one question will be shown at a time. There is no option to
+          change attempted answer. At right corner correct answer and number of
+          attempted questions will be shown.
+        </p>
         <div className="form-control">
           <label htmlFor="amount">number of questions</label>
           <input
@@ -55,7 +60,7 @@ const QuizForm = () => {
           ""
         )}
         <button type="submit" className="submit-btn" onClick={handleSubmit}>
-          start
+          start the quiz
         </button>
       </form>
     </section>
