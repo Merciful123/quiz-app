@@ -54,7 +54,8 @@ main {
   border-radius: 0.25rem;
   border-color: transparent;
   padding: 0.25rem 0.5rem;
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 35%;
   margin-left: auto;
   margin-top: 2rem;
