@@ -1,0 +1,47 @@
+.quiz-small {
+  max-width: 500px;
+}
+
+.setup-form h2 {
+  margin-bottom: 2rem;
+}
+.form-control {
+  margin-bottom: 2rem;
+}
+.form-control label {
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: hsl(209, 34%, 30%);
+  margin-bottom: 0.5rem;
+}
+.form-input {
+  border: none;
+  background: hsl(210, 36%, 96%);
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+.error {
+  color: hsl(360, 67%, 44%);
+  text-transform: capitalize;
+}
+.submit-btn {
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  padding: 0.25rem 0.5rem;
+  display: block;
+  width: 35%;
+  margin-top: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  background: #ffb100;
+  color: #222;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}

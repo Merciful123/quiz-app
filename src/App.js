@@ -1,10 +1,10 @@
 import "./App.css";
-import SetUpForm from "./components/Form";
+import QuizForm from "./components/QuizForm";
 import Loading from "./components/Loading";
 import Modal from "./components/Modal";
 import { useGlobalContext } from "./context/Context";
 
-function App() {
+const App = () => {
   const {
     waiting,
     loading,
@@ -16,7 +16,7 @@ function App() {
   } = useGlobalContext();
 
   if (waiting) {
-    return <SetUpForm />;
+    return <QuizForm />;
   }
   if (loading) {
     return <Loading />;
@@ -60,12 +60,12 @@ function App() {
             </div>
           </article>
           <button className="next-question" onClick={nextQuestions}>
-             next questions 
+            next questions
           </button>
         </section>
       </main>
     </>
   );
-}
+};
 
 export default App;
